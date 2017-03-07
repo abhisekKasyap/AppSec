@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  AppSecViewController.swift
 //  Appsec
 //
 //  Created by abhay singh on 07/03/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class AppSecViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

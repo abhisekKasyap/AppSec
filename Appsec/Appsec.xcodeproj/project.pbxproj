@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		966E2C111E6E65A2005F3E2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966E2C101E6E65A2005F3E2D /* AppDelegate.swift */; };
-		966E2C131E6E65A2005F3E2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966E2C121E6E65A2005F3E2D /* ViewController.swift */; };
+		966E2C131E6E65A2005F3E2D /* AppSecViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966E2C121E6E65A2005F3E2D /* AppSecViewController.swift */; };
 		966E2C161E6E65A2005F3E2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 966E2C141E6E65A2005F3E2D /* Main.storyboard */; };
 		966E2C191E6E65A2005F3E2D /* Appsec.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 966E2C171E6E65A2005F3E2D /* Appsec.xcdatamodeld */; };
 		966E2C1B1E6E65A2005F3E2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 966E2C1A1E6E65A2005F3E2D /* Assets.xcassets */; };
@@ -37,7 +37,7 @@
 /* Begin PBXFileReference section */
 		966E2C0D1E6E65A2005F3E2D /* Appsec.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Appsec.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		966E2C101E6E65A2005F3E2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		966E2C121E6E65A2005F3E2D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		966E2C121E6E65A2005F3E2D /* AppSecViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSecViewController.swift; sourceTree = "<group>"; };
 		966E2C151E6E65A2005F3E2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		966E2C181E6E65A2005F3E2D /* Appsec.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Appsec.xcdatamodel; sourceTree = "<group>"; };
 		966E2C1A1E6E65A2005F3E2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,7 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				966E2C101E6E65A2005F3E2D /* AppDelegate.swift */,
-				966E2C121E6E65A2005F3E2D /* ViewController.swift */,
+				966E2C121E6E65A2005F3E2D /* AppSecViewController.swift */,
 				966E2C141E6E65A2005F3E2D /* Main.storyboard */,
 				966E2C1A1E6E65A2005F3E2D /* Assets.xcassets */,
 				966E2C1C1E6E65A2005F3E2D /* LaunchScreen.storyboard */,
@@ -265,7 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				966E2C131E6E65A2005F3E2D /* ViewController.swift in Sources */,
+				966E2C131E6E65A2005F3E2D /* AppSecViewController.swift in Sources */,
 				966E2C191E6E65A2005F3E2D /* Appsec.xcdatamodeld in Sources */,
 				966E2C111E6E65A2005F3E2D /* AppDelegate.swift in Sources */,
 			);
@@ -518,6 +518,7 @@
 				966E2C3A1E6E65A2005F3E2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		966E2C3B1E6E65A2005F3E2D /* Build configuration list for PBXNativeTarget "AppsecTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +527,7 @@
 				966E2C3D1E6E65A2005F3E2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		966E2C3E1E6E65A2005F3E2D /* Build configuration list for PBXNativeTarget "AppsecUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +536,7 @@
 				966E2C401E6E65A2005F3E2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
